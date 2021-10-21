@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
   @override
   GoalsScreen createState() => GoalsScreen();
 
-  @override
-  GoalsScreen setState() => GoalsScreen();
+  //@override
+  //GoalsScreen setState() => GoalsScreen();
   // Need to create a setState function or fill it with something
 
   @override

@@ -38,11 +38,11 @@ class GoalsScreen extends MyApp {
                   value: 2,
                 ),
               ],
-              onChanged: (int value) {
-                setState(() {
-                  _value = value;
-                });
-              },
+              //  onChanged: (int value) {
+              //    setState(() {
+              //      _value = value;
+              //    });
+              //  },
             ),
             DropdownButton(value: 1, items: [
               DropdownMenuItem(
