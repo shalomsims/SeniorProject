@@ -5,16 +5,16 @@ const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
     title: 'Mind',
-    color: Colors.greenAccent,
+    color: Colors.grey,
   ),
   Category(
     id: 'c2',
     title: 'Body',
-    color: Colors.red,
+    color: Colors.brown,
   ),
   Category(
     id: 'c3',
     title: 'Spirit',
-    color: Colors.blue,
+    color: Color.fromRGBO(250, 133, 15, 100),
   ),
 ];

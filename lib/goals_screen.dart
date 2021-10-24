@@ -54,6 +54,16 @@ class GoalsScreen extends MyApp {
                 value: 2,
               )
             ]),
+            DropdownButton(value: 1, items: [
+              DropdownMenuItem(
+                child: Text('First Item'),
+                value: 1,
+              ),
+              DropdownMenuItem(
+                child: Text('Second Item'),
+                value: 2,
+              )
+            ])
             //add next dropdown here
           ],
         ));
